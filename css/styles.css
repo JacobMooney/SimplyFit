@@ -1,0 +1,40 @@
+/*Color Palette Reference
+#D5CCC3, #AEA39B, #8D8884, #797875,
+#AB5236, #6A6B67, #5E625F, #585C59,
+#4D5453, #3D4746, #303839, #21292C,
+#192224, #192123, #161E20, #13181A
+*/
+
+.bg-image {
+    background-image: url('../img/photo-1597076537061-a6b58163aa45.jpg');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: auto;
+    height: 100%;
+}
+
+.main-wrapper {
+    height: 100vh;
+  }
+
+.container-fluid{
+    padding: 0%;
+}
+
+.jumbotron{
+    margin: 0px;
+}
+
+.navbar{
+    background-color: #AB5236;
+}
+
+.landing-page {
+    overflow-y: hidden;
+    }
+
+.navbar-brand {
+    font-size: 2rem;
+}

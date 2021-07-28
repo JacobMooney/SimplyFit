@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Simply Fit</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand text-light" href="index.html">Simply Fit</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="information.html">Learn <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Train</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container py-5">
+        <h1>Basics of nutrition and training</h1>
+        <p>
+            In order to make the most out of your training journey, it is important
+            to know the basics about nutrition and lifting. This section is
+            dedicated to giving absolute beginners a foundation of knowledge in
+            order to maximize results.
+        </p>
+        <hr>
+        <h2 class="mt-4">Nutrition</h2>
+        <p>Before we dive into lifting, we will cover some basic information about calories, macronutrients,
+            micronutrients, and supplements.</p>
+        <h5>Calories</h5>
+        <p>Calories are used to describe the energy amount that can be gained from consuming any given food or drink.
+            This is the top number on any nutrition label you will see, it represents the sum total of all the
+            nutrients.
+            Everyone needs to take in a certain amount of calories per day based upon several factors;</p>
+        <ul>
+            <li>Height</li>
+            <li>Weight</li>
+            <li>Age</li>
+            <li>Gender</li>
+            <li>Activity Levels</li>
+        </ul>
+        <div class="thumbnail">
+            <div class="caption">
+                <h5>Total Daily Energy Expenditure (TDEE)</h5>
+                <p>The calories required per day to maintain your current weight is commonly abbreviated as TDEE (total
+                    daily energy expenditure). When trying to gain or lose weight this is the primary number used to
+                    determine how much you should be eating. </p>
+                <div class="font-weight-bold">- Below you can calculate your TDEE using the <a
+                    href="https://www.mdapp.co/">MDApp</a> -</div>
+                <div id="mdapp-widget" app-id="556"></div>
+            </div>
+        </div>
+        <h5 class="mt-2">Macronutrients</h5>
+        <p>Using the tool above, you can find your TDEE as a starting point for planning your calorie needs.</p>
+
+    </div>
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script async src="https://tools.mdapp.co/js/sdk.js"></script>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
