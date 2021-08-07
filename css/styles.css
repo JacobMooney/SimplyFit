@@ -17,18 +17,22 @@
 
 .main-wrapper {
     height: 100vh;
-  }
+}
 
-.container-fluid{
+.container-fluid {
     padding: 0%;
 }
 
-.jumbotron{
+.jumbotron {
     margin: 0px;
 }
 
-.navbar{
-    background-color: #AB5236;
+.welcome-text {
+    height: 400px;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #AB5236, #ff9b7d);
     border-bottom: 0.16em solid rgb(255, 255, 255);
 }
 
@@ -55,10 +59,10 @@
     text-align: center;
     transition: all 0.5s;
     background-color: white;
-  }
+}
   
-  .bn3:hover {
+.bn3:hover {
     color: white;
     background-color: #AB5236;
     border: 0.16em solid #AB5236;
-  }
+}
