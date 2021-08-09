@@ -17,28 +17,18 @@
 
 .main-wrapper {
     height: 100vh;
-}
-
-.container-fluid {
-    padding: 0%;
+    min-height: 40rem;
+    padding: 8rem, 2rem, 8rem, 2rem;
 }
 
 .jumbotron {
     margin: 0px;
 }
 
-.welcome-text {
-    height: 400px;
-}
-
 .navbar {
     background: linear-gradient(90deg, #AB5236, #ff9b7d);
     border-bottom: 0.16em solid rgb(255, 255, 255);
 }
-
-.landing-page {
-    overflow-y: hidden;
-    }
 
 .navbar-brand {
     font-size: 2rem;
@@ -60,9 +50,38 @@
     transition: all 0.5s;
     background-color: white;
 }
-  
+
 .bn3:hover {
     color: white;
     background-color: #AB5236;
     border: 0.16em solid #AB5236;
+}
+
+.infoSection {
+    background-color: #D5CCC3;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    height: 75vh;
+}
+
+#about {
+    background: linear-gradient(270deg, #AB5236, #ff9b7d);
+}
+
+#nutrition {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/photo-1521805103424-d8f8430e8933.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#training {
+    background: linear-gradient(180deg, #AB5236, #ff9b7d);
+}
+
+#programBuilder {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/gym-1-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
