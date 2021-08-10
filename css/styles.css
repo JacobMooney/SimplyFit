@@ -11,6 +11,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: bottom;
     width: auto;
     height: 100%;
 }
@@ -28,6 +29,7 @@
 .navbar {
     background: linear-gradient(90deg, #AB5236, #ff9b7d);
     border-bottom: 0.16em solid rgb(255, 255, 255);
+    background-position: bottom;
 }
 
 .navbar-brand {
@@ -61,7 +63,7 @@
     background-color: #D5CCC3;
     padding-top: 8rem;
     padding-bottom: 8rem;
-    height: 75vh;
+    height: 70vh;
 }
 
 #about {
@@ -69,14 +71,20 @@
 }
 
 #nutrition {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/photo-1521805103424-d8f8430e8933.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/nutrition-pic.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: bottom;
 }
 
 #training {
-    background: linear-gradient(180deg, #AB5236, #ff9b7d);
+    /* background: linear-gradient(180deg, #AB5236, #ff9b7d); */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/blue-equipment.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
 }
 
 #programBuilder {
@@ -84,4 +92,5 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: bottom;
 }
